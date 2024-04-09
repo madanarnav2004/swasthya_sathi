@@ -10,25 +10,7 @@ This repository contains code for a voice-enabled healthcare chatbot that suppor
 - MarianMT model for English to Hindi translation
 - Speech recognition model for Hindi transcription
 
-## Usage
 
-1. Install the required dependencies:
-
-   ```bash
-   pip install torch transformers
-   ```
-
-2. Clone this repository:
-
-   ```bash
-   git clone <repository_url>
-   ```
-
-3. Run the chatbot:
-
-   ```bash
-   python voice_enabled_healthcare_chatbot.py
-   ```
 
 ## Features
 
