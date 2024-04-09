@@ -2,7 +2,7 @@
 
 # Voice-Enabled Healthcare Chatbot with Regional Language Support
 
-This repository contains code for a voice-enabled healthcare chatbot that supports regional languages. The chatbot utilizes ChatGPT for conversational generation, machine translation for English to Hindi translation, and speech recognition for transcribing Hindi speech inputs.
+This repository contains code for a voice-enabled healthcare chatbot that supports regional languages. The chatbot utilizes ChatGLM for conversational generation, machine translation for English to Hindi translation, and speech recognition for transcribing Hindi speech inputs.
 
 ## Requirements
 - PyTorch
@@ -22,7 +22,7 @@ This repository contains code for a voice-enabled healthcare chatbot that suppor
 
 ## Code Overview
 
-- **ChatGPT Integration**: Utilizes the ChatGPT model from Hugging Face's model hub for generating responses to user queries.
+- **ChatGPT Integration**: Utilizes the ChatGLM model from Hugging Face's model hub for generating responses to user queries.
 - **Translation**: Implements a function for translating English text to Hindi using the Helsinki-NLP/opus-mt-en-hi model.
 - **Speech Transcription**: Uses a pretrained speech recognition model for transcribing Hindi speech inputs to text.
 
